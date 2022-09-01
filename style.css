@@ -2,10 +2,8 @@ body {
     direction: rtl;
     text-align: center;
     background-image: url(image/background.jpg);
-    background-repeat: repeat;
-    background-size: 100% ;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 .header {
     width: 100%;
@@ -61,6 +59,10 @@ font-size: 30px;
 }
 .main h4{
     font-size: 26px;
+}
+iframe{
+    width: 560PX ;
+    height: 315px;
 }
 .product{
     width: 22%;
